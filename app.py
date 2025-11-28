@@ -15,12 +15,12 @@ from fpdf import FPDF
 from flask import Flask
 
 # =================== CONFIG ===================
-BOT_TOKEN = "8487392108:AAHFCQq8HCCK6_borlSOff6jCa4dRVLrXnQ"  # Telegram bot token
+BOT_TOKEN = "8487392108:AAEziDsOAZLeYyjjPRVGbDyrhWarxWR7QRY"  # Telegram bot token
 ADMIN_USERNAME = "S1ndarovv"  # admin username
 USERS_FILE = "users.json"
 
 # HuggingFace Inference API
-HF_API_KEY = "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"
+HF_API_KEY = "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"
 HF_MODEL = "OpenAssistant/oasst-sft-6-llm-epoch-3.5"
 
 # =================== USER DATA ===================
@@ -212,4 +212,5 @@ def main():
     bot.run_polling()
 
 if __name__ == "__main__":
+
     main()
